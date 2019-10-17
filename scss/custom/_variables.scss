@@ -1,36 +1,12 @@
-// Override Bootstrap default variables here
-// Do not edit any of the files in /vendor/bootstrap/scss/!
 
-
+// Color Variables
+// Bootstrap Color Overrides
 /*Shadow*/
 $shadow: 0 1px 4px 0 rgba(0,0,0,.1);
 /* transitions */
 $transitions: 0.2s ease-in;
-/* Dark transparent bg */
-$transparent-dark-bg: rgba(0, 0, 0, 0.03);
-$lft: left;
-$rgt: right;
-$card-alt: #e4e9ef;
-%square {
-  border-radius: 0px;
-}
-%rotate45 {
-  transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-}
 
 
-
-
-
-
-
-
-// Color Variables
-// Bootstrap Color Overrides
 
 $white: #fff !default;
 $gray-100: #f7fafc !default;
@@ -204,3 +180,19 @@ $breadcrumb-bg:                     none !default;
 $breadcrumb-title-font-size:        $h4-font-size !default;
 $breadcrumb-item-font-size :        0.5rem;
 
+
+/* Dark transparent bg */
+$transparent-dark-bg: rgba(0, 0, 0, 0.03);
+$lft: left;
+$rgt: right;
+$card-alt: #e4e9ef;
+%square {
+  border-radius: 0px;
+}
+%rotate45 {
+  transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+}

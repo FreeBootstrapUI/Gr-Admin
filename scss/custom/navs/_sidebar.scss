@@ -272,9 +272,7 @@
 
 // Sidebar Light
 .sidebar-light {
-  .sidebar-brand {
-    color: $gray-700;
-  }
+ 
   hr.sidebar-divider {
     border-top: 1px solid $gray-200;
   }
@@ -323,9 +321,6 @@
 
 // Sidebar Dark
 .sidebar-dark {
-  .sidebar-brand {
-    color: $gray-100;
-  }
   hr.sidebar-divider {
     border-top: 1px solid fade-out($white, 0.85);
   }
@@ -342,6 +337,7 @@
       &:focus,
       &:hover {
         color: $white;
+        background-color: #ffffff1f;
         i {
           color: $white;
         }
@@ -354,6 +350,7 @@
     &.active {
       .nav-link {
         color: $white;
+        background-color: #ffffff1f;
         i {
           color: $white;
         }

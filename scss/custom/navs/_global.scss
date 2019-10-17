@@ -1,5 +1,10 @@
 // Global styles for both custom sidebar and topbar compoments
-
+.header-bg-color{
+  background-color: $white;
+  &.sidebar-brand {
+    color: $primary;
+  }
+}
 .sidebar,
 .topbar {
   .nav-item {
