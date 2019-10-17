@@ -1,0 +1,198 @@
+
+// Color Variables
+// Bootstrap Color Overrides
+/*Shadow*/
+$shadow: 0 1px 4px 0 rgba(0,0,0,.1);
+/* transitions */
+$transitions: 0.2s ease-in;
+
+
+
+$white: #fff !default;
+$gray-100: #f7fafc !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #8898aa !default;
+$gray-700: #525f7f !default;
+$gray-800: #313131 !default;
+$gray-900: #212529 !default;
+$black: #000 !default;
+$cyan: #4fc3f7 !default;
+$info: #2cabe3 !default;
+$red: #ff5050 !default;
+$green: #2cd07e !default;
+$theme-colors: () !default;
+$primary : #214798 !default
+$theme-colors: map-merge(
+  (
+    'primary': $primary,
+    'secondary': $gray-600,
+    'success': $green,
+    'info': $info,
+    'warning': #ffc36d,
+    'danger': $red,
+    'light': $gray-100,
+    'dark': $gray-800,
+    'cyan': #4fc3f7,
+    'orange': #ffc36d,
+    'purple': #707cd2,
+    'inverse': #4c5667
+  ),
+  $theme-colors
+);
+
+$brand-colors: () !default;
+$brand-colors: map-merge(
+  (
+    'facebook': #3b5999,
+    'twitter': #1da1f2,
+    'googleplus': #dd4b39,
+    'instagram': #e4405f,
+    'pinterest': #bd081c,
+    'youtube': #cd201f,
+    'linkedin': #007bb6,
+    'slack': #3aaf85,
+    'dribbble': #ea4c89,
+    'github': #222222
+  ),
+  $brand-colors
+);
+
+// Custom Colors
+$brand-google: #ea4335;
+$brand-facebook: #3b5998;
+
+// Set Contrast Threshold
+$yiq-contrasted-threshold: 195 !default;
+// Body
+//
+// Settings for the `<body>` element.
+
+$body-bg:                   $white !default;
+$body-color:                $gray-900 !default;
+
+// Typography
+$font-weight-light: 300 !default;
+// $font-weight-base: 400;
+$headings-font-weight: 400 !default;
+$font-size-base:               1rem !default; // Assumes the browser default, typically `16px`
+$h1-font-size:                 2.3rem !default;
+$h2-font-size:                 2rem !default;
+$h3-font-size:                1.8rem !default;
+$h4-font-size:                1.4rem !default;
+$h6-font-size:                $font-size-base !default;
+
+// Shadows
+$box-shadow-sm: 0 0.125rem 0.25rem 0 rgba($gray-900, .2) !default;
+$box-shadow: 0 0.15rem 1.75rem 0 rgba($gray-900, .15) !default;
+
+// $box-shadow-lg: 0 1rem 3rem rgba($black, .175) !default;
+
+// Borders Radius
+$border-radius: 0.35rem !default;
+$border-color: darken($gray-200, 2%);
+
+// Spacing Variables
+// Change below variable if the height of the navbar changes
+$topbar-base-height: 4.375rem;
+// Change below variable to change the width of the sidenav
+$sidebar-base-width: 14rem;
+// Change below variable to change the width of the sidenav when collapsed
+$sidebar-collapsed-width: 6.5rem;
+
+// Card
+$card-cap-bg:                       $gray-100;
+$card-border-color:                 $border-color;
+$card-spacer-x:                     1.57rem !default;
+
+
+// Adjust column spacing for symmetry
+$spacer: 1rem;
+$grid-gutter-width: $spacer * 1.5;
+
+// Transitions
+$transition-collapse: height .15s ease !default;
+// Font, line-height, and color for body text, headings, and more.
+$font-size-base: 0.875rem !default;
+$font-weight-light: 300 !default;
+$font-weight-normal: 400 !default;
+$font-weight-medium: 500 !default;
+$font-weight-bold: 700 !default;
+$font-weight-base: $font-weight-normal !default;
+
+// Dropdowns
+$dropdown-font-size: 0.85rem;
+$dropdown-border-color: $border-color;
+
+$font-family-sans-serif:      'Nunito Sans', sans-serif !default;
+$font-family-monospace:       'Nunito Sans', sans-serif !default;
+$font-family-base:            $font-family-sans-serif !default;
+
+// Cards
+$card-border-width: 0px !default;
+$card-border-color: transparent !default;
+$card-border-radius: 0px !default;
+$card-bottom-margin: 30px !default;
+$card-spacer-x: 1.57rem !default;
+%card-shadow {
+  box-shadow: $shadow;
+  -webkit-box-shadow: $shadow;
+  -moz-box-shadow: $shadow;
+  -o-box-shadow: $shadow;
+}
+
+// carousel
+$carousel-height : 388px;
+
+//Buttons
+$btn-border-radius: 2px !default;
+$btn-border-radius-lg: 2px !default;
+$btn-border-radius-sm: 2px !default;
+
+// adapting to different screen sizes, for use in media queries.
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xlg: 1600px
+) !default;
+
+
+// Search Suggestions
+$ss-min-heigh : 150px;
+$ss-padding   : 1rem;
+$ss-heading-size   : .90rem;
+
+// list-unstyled
+$l-list-link-padding-top-bottom : .25rem;
+$l-list-link-size  : .80rem;
+
+// Breadcrumbs
+
+$breadcrumb-padding-y:              0 !default;
+$breadcrumb-padding-x:              0 !default;
+$breadcrumb-margin-bottom:          0rem !default;
+$breadcrumb-bg:                     none !default;
+$breadcrumb-title-font-size:        $h4-font-size !default;
+$breadcrumb-item-font-size :        0.5rem;
+
+
+/* Dark transparent bg */
+$transparent-dark-bg: rgba(0, 0, 0, 0.03);
+$lft: left;
+$rgt: right;
+$card-alt: #e4e9ef;
+%square {
+  border-radius: 0px;
+}
+%rotate45 {
+  transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+}

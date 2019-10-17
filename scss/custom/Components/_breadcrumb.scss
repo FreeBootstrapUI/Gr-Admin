@@ -1,0 +1,22 @@
+.breadcrumb {
+    padding: $breadcrumb-padding-y $breadcrumb-padding-x;
+    margin-bottom: $breadcrumb-margin-bottom;
+    background: $breadcrumb-bg;
+  
+  }
+  .breadcrumb-item {
+    a{
+        &:hover{
+            text-decoration: none;
+        }
+    }
+    
+}
+  .breadcrumb_title{
+    color: $breadcrumb-active-color;
+    font-size: $breadcrumb-title-font-size;
+    margin: 0px;
+  }
+  
+  
+  

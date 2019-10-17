@@ -1,0 +1,18 @@
+
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&display=swap');
+@import '../vendor/bootstrap/scss/functions';
+@import "custom/variables";
+@import '../vendor/bootstrap/scss/variables';
+@import '../vendor/bootstrap/scss/bootstrap';
+
+//@import "custom/mixins";
+@import "custom/global.scss";
+@import "custom/utilities/index";
+
+// Custom Components
+@import "custom/Components/index";
+@import "custom/navs/index";
+@import "custom/login";
+@import "custom/error";
+@import "custom/charts.scss";
+@import "custom/footer.scss";

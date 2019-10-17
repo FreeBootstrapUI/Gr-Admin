@@ -1,0 +1,179 @@
+//Buttons
+.btn {
+  position: relative;
+  transition: $transition-base;
+  // border: 1px solid transparent;
+  padding: .375rem .75rem;
+    font-size: .875rem;
+    line-height: 1.5;
+    border-radius: $btn-border-radius;
+}
+.btn-circle {
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  &.btn-sm {
+    width: 35px;
+    height: 35px;
+    padding:6px 7px;
+    font-size: 14px;
+  }
+  &.btn-lg {
+    width: 50px;
+    height: 50px;
+    padding: 14px 15px;
+    font-size: 18px;
+    line-height: 23px;
+  }
+  &.btn-xl {
+    width: 70px;
+    height: 70px;
+    padding: 14px 15px;
+    font-size: 24px;
+  }
+}
+
+.btn-rounded {
+  border-radius: 60px;
+  &.btn-lg {
+    padding: 0.75rem 1.5rem;
+  }
+  &.btn-sm {
+    padding: 0.25rem 0.75rem;
+    font-size: 12px;
+  }
+  &.btn-md {
+    padding: 12px 35px;
+    font-size: 16px;
+  }
+}
+// Brand buttons
+
+@each $color, $value in $brand-colors {
+  .btn-#{$color} {
+    @include button-variant($value, $value);
+  }
+}
+
+.btn-group,
+.input-group {
+  .btn {
+    margin-right: 0;
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0);
+  }
+}
+
+.button-group .btn {
+  margin-bottom: 5px;
+}
+
+.no-button-group .btn {
+  margin-bottom: 5px;
+  margin-right: 0px;
+}
+
+.btn .text-active {
+  display: none;
+}
+
+.btn.active .text-active {
+  display: inline-block;
+}
+
+.btn.active .text {
+  display: none;
+}
+
+
+
+
+
+
+
+/*******************
+Notify
+*******************/
+
+.notify {
+  position: relative;
+  top: 0;
+  right:-7px;
+  .heartbit {
+      position: absolute;
+      top: -20px;
+      right: -4px;
+      height: 25px;
+      width: 25px;
+      z-index: 10;
+      border: 5px solid $danger;
+      border-radius: 70px;
+      -moz-animation: heartbit 1s ease-out;
+      -moz-animation-iteration-count: infinite;
+      -o-animation: heartbit 1s ease-out;
+      -o-animation-iteration-count: infinite;
+      -webkit-animation: heartbit 1s ease-out;
+      -webkit-animation-iteration-count: infinite;
+      animation-iteration-count: infinite;
+  }
+  .point {
+      width: 6px;
+      height: 6px;
+      -webkit-border-radius: 30px;
+      -moz-border-radius: 30px;
+      border-radius: 30px;
+      background-color: $danger;
+      position: absolute;
+      right: 6px;
+      top: -10px;
+  }
+}
+
+@-moz-keyframes heartbit {
+  0% {
+      -moz-transform: scale(0);
+      opacity: 0.0;
+  }
+  25% {
+      -moz-transform: scale(0.1);
+      opacity: 0.1;
+  }
+  50% {
+      -moz-transform: scale(0.5);
+      opacity: 0.3;
+  }
+  75% {
+      -moz-transform: scale(0.8);
+      opacity: 0.5;
+  }
+  100% {
+      -moz-transform: scale(1);
+      opacity: 0.0;
+  }
+}
+
+@-webkit-keyframes heartbit {
+  0% {
+      -webkit-transform: scale(0);
+      opacity: 0.0;
+  }
+  25% {
+      -webkit-transform: scale(0.1);
+      opacity: 0.1;
+  }
+  50% {
+      -webkit-transform: scale(0.5);
+      opacity: 0.3;
+  }
+  75% {
+      -webkit-transform: scale(0.8);
+      opacity: 0.5;
+  }
+  100% {
+      -webkit-transform: scale(1);
+      opacity: 0.0;
+  }
+}
