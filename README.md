@@ -1,10 +1,10 @@
-# [Free Bootstarp UI - Gr Admin](https://freebootstrapui.com/template-overviews/gr-admin)
+# [Free Bootstarp UI - Gr Admin](https://freebootstrapui.com/themes/gr-admin)
 
-[Gr Admin](https://freebootstrapui.com/template-overviews/gr-admin/) is an open source admin dashboard theme for [Bootstrap](http://getbootstrap.com/) created by [Free Bootstarp UI](https://freebootstrapui.com).
+[Gr Admin](https://freebootstrapui.com/themes/gr-admin) is an open source admin dashboard theme for [Bootstrap](http://getbootstrap.com/) created by [Free Bootstarp UI](https://freebootstrapui.com).
 
 ## Preview
 
-[![Gr Admin Preview](https://freebootstrapui.com/template-overviews/gr-admin)](https://freebootstrapui.github.io/Gr-Admin/)
+[![Gr Admin Preview](https://freebootstrapui.com/content/img/gradmin.jpg)](https://freebootstrapui.github.io/Gr-Admin/)
 
 **[Launch Live Preview](https://freebootstrapui.github.io/Gr-Admin/)**
 
@@ -17,7 +17,7 @@
 
 To begin using this template, choose one of the following options to get started:
 
--   [Download the latest release on Free Bootstrap UI](https://freebootstrapui.com/template-overviews/gr-admin)
+-   [Download the latest release on Free Bootstrap UI](https://freebootstrapui.com/themes/gr-admin)
 -   Clone the repo: `git clone https://github.com/FreeBootstrapUI/Gr-Admin.git`
 -   [Fork, Clone, or Download on GitHub](https://github.com/FreeBootstrapUI/Gr-Admin)
 
@@ -28,7 +28,7 @@ Otherwise you can run with css..
 
 ## Bugs and Issues
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/FreeBootstrapUI/Gr-Admin/issues) here on GitHub or leave a comment on the [template overview page at Free Bootstarp UI ](https://freebootstrapui.com/template-overviews/gr-admin).
+Have a bug or an issue with this template? [Open a new issue](https://github.com/FreeBootstrapUI/Gr-Admin/issues) here on GitHub or leave a comment on the [template overview page at Free Bootstarp UI ](https://freebootstrapui.com/themes/gr-admin).
 
 ## About
 
